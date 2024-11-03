@@ -6,8 +6,8 @@ mongoose
   .then(() => console.log("MongoDB connected Successfully!"));
 
 const AdminSchema = new mongoose.Schema({
-  name: String,
-  password: Number,
+  username: String,
+  password: String,
 });
 
 const CourseSchema = new mongoose.Schema({
